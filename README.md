@@ -1,5 +1,15 @@
 ## Welcome to GitHub Pages
 
+[Foo](foo.md)
+
+[Foo](foo.html)
+
+[About](content/about.md)
+
+[About](content/about.html)
+
+![here comes det boi](img/det_boi.png)
+
 You can use the [editor on GitHub](https://github.com/3zuli/3zuli.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
