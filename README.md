@@ -1,14 +1,12 @@
 ## Welcome to GitHub Pages
 
-[Foo](foo.md)
-
 [Foo](foo.html)
 
 [About](content/about.md)
 
-[About](content/about.html)
-
 ![here comes det boi](img/det_boi.png)
+
+![external img](https://raw.githubusercontent.com/3zuli/mprojbot/b812f7e31bb7c099ba0bedb2b416fd8bb5911eaf/doc/mprojbotPID.JPG)
 
 You can use the [editor on GitHub](https://github.com/3zuli/3zuli.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
