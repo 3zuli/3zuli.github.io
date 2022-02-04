@@ -1,45 +1,36 @@
-## Welcome to GitHub Pages
+## Welcome!
 
-[Foo](foo.html)
+<!-- [Foo](foo.md) -->
 
-[About](content/about.md)
+<!-- [About](content/about.md) -->
 
-![here comes det boi](img/det_boi.png)
+<!-- ![here comes det boi](img/det_boi.png) -->
 
-![external img](https://raw.githubusercontent.com/3zuli/mprojbot/b812f7e31bb7c099ba0bedb2b416fd8bb5911eaf/doc/mprojbotPID.JPG)
+<!-- [![here comes det boi](img/det_boi.png)](content/about.md) -->
 
-You can use the [editor on GitHub](https://github.com/3zuli/3zuli.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+<!-- ![external img](https://raw.githubusercontent.com/3zuli/mprojbot/b812f7e31bb7c099ba0bedb2b416fd8bb5911eaf/doc/mprojbotPID.JPG) -->
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+My name is Adam Trizuljak. Aside from my regular SW engineering work, I like to work on various hobby projects involving Arduino, ESP8266 & ESP32, STM32, electronics design, 3D printing and more. 
+<!-- I have built several mobile robots, WiFi-connected sensors,  -->
 
-### Markdown
+This page is a quick showcase of some of my past projects. Where possible, I'll provide links to public Git repos or other means of documentation. Let's go!
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+# ESP8266 & ESP32
+co2 sensor
 
-```markdown
-Syntax highlighted code block
+pool temp sensor
 
-# Header 1
-## Header 2
-### Header 3
+wifi monitor
 
-- Bulleted
-- List
+# Electronics
+neopixie glasses
 
-1. Numbered
-2. List
+doppler module
 
-**Bold** and _Italic_ and `Code` text
+# Robotics
+mprojbot
 
-[Link](url) and ![Image](src)
-```
+stm linefollower
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/3zuli/3zuli.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+# Research
+circular avoidance
