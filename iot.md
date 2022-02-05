@@ -19,7 +19,7 @@ I want to keep adding more features once events and festivals are allowed again,
 
 First test showing the LED PCB in detail
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=k-fCb0Cq5mE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/k-fCb0Cq5mE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ## IoT CO2 and air quality sensor
@@ -59,6 +59,6 @@ This is an old project. An ESP8266 periodically checks if it's connected to the 
 
 [DIY guide on Instructables](https://www.instructables.com/ESP8266-Internet-Alarm/)
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=JE0zQ7cr_xE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JE0zQ7cr_xE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 [Back](https://3zuli.github.io/)

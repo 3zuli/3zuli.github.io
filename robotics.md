@@ -5,7 +5,7 @@
 
 I created the basic infrastructure for control of a swarm of miniature semi-autonomous Crazyflie 2.0 quadcopters and for obtaining measurements from on-board sensors. A PD position controller and a new quaternion-based PD attitude controller were implemented in firmware. In addition, I implemented a set of programs for communicating with the quadcopters and for sending simple trajectories. The poses of all drones are measured with a Vicon motion tracking system. The quadcopters only receive their current position and a desired position setpoint. The quadcopters have the ability to detect collisions and landings and are capable of flight in turbulent airflow.
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=LXng1v8lwbk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LXng1v8lwbk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ## ADIS16488 IMU driver for Teensy 3.6
@@ -42,7 +42,7 @@ Assignment for our Mechatronic system control course. The project was realized u
 - Using the simulation model to design and tune a controller in simulation
 - Using the developed controller to control the physical crane
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=uhP8vmintfc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uhP8vmintfc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ## STM32 Line follower
@@ -54,11 +54,11 @@ My own attempt at building a line follower robot for the [Istrobot 2017](http://
 - Ultrasonic sensor and front bumper switch for detecting obstacles
 - Magnetometer for heading control while avoiding an obstacle
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=kqh9bCNCvxU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kqh9bCNCvxU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 The actual line following worked pretty well. However, the robot was built using a cheap 2 wheel robot chassis kit and the motors weren't strong enough to climb the bridge on the competition track. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=DYZh-zOFRCg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DYZh-zOFRCg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ![Linefollower](img/linefollower.jpg)
 
