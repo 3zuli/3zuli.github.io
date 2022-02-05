@@ -1,9 +1,8 @@
 # Welcome!
 
-My name is Adam Trizuljak. Aside from my regular SW engineering work, I like to work on various hobby projects involving Arduino, ESP8266 & ESP32, STM32, electronics design, 3D printing and more. 
-<!-- I have built several mobile robots, WiFi-connected sensors,  -->
+My name is Adam Trizuljak. Aside from my regular SW engineering work, I like to work on various hobby projects involving Arduino, ESP8266 & ESP32, STM32, electronics design, robotics, 3D printing and more. 
 
-This page is a quick showcase of some of my past projects. Where possible, I'll provide links to public Git repos or other means of documentation. Some of my other projects (and many random videos) can be seen on my [Youtube channel](https://www.youtube.com/user/3zuli/videos). Also check out my 3D designs on [Thingiverse](https://www.thingiverse.com/3zuli/designs). Let's go!
+This page is a quick showcase of some of my past projects. Where possible, I'll provide links to public Git repos or other means of documentation. Some of my other projects (and many random videos) can be seen on my [Youtube channel](https://www.youtube.com/user/3zuli/videos). I also have a couple of 3D designs on [Thingiverse](https://www.thingiverse.com/3zuli/designs). Let's go!
 
 # ESP8266 & ESP32
 
@@ -132,10 +131,34 @@ This was a team project aimed at creating a line follower robot for the [Istrobo
 ![Differential drive robot](img/mprojbot.jpg)
 
 
-<!-- stm linefollower -->
-<!-- The actual line following worked pretty well, but the robot wasn't successful during the competition... -->
+## PID control of model gantry crane
+2017
+
+Assignment for our Mechatronic system control course. The project was realized using Matlab and Simulink. The work consisted of
+- Performing system identification of the crane to create a simulation model
+- Using the simulation model to design and tune a controller in simulation
+- Using the developed controller to control the physical crane
+
+[![Crane control](http://img.youtube.com/vi/uhP8vmintfc/0.jpg)](https://www.youtube.com/watch?v=uhP8vmintfc)
+
+
+## STM32 Line follower
+2017
+
+My own attempt at building a line follower robot for the [Istrobot 2017](http://www.robotika.sk/contest/2017/index.php) competition.
+- STM32L152, firmware developed using [mbed.com](mbed.com)
+- Line following with 9x CNY70 sensor (custom PCB) and PID control
+- Ultrasonic sensor and front bumper switch for detecting obstacles
+- Magnetometer for heading control while avoiding an obstacle
+
+[![Linefollower test](http://img.youtube.com/vi/kqh9bCNCvxU/0.jpg)](https://www.youtube.com/watch?v=kqh9bCNCvxU)
+
+The actual line following worked pretty well. However, the robot was built using a cheap 2 wheel robot chassis kit and the motors weren't strong enough to climb the bridge on the competition track. 
+
+[![Linefollower obstacle avoidance](http://img.youtube.com/vi/DYZh-zOFRCg/0.jpg)](https://www.youtube.com/watch?v=DYZh-zOFRCg)
+
+![Linefollower](img/linefollower.jpg)
+
 
 <!-- # Research -->
 <!-- circular avoidance -->
-
-<!-- crane control -->
