@@ -1,22 +1,9 @@
 # Welcome!
 
-<!-- [Foo](foo.md) -->
-
-<!-- [About](content/about.md) -->
-
-<!-- ![here comes det boi](img/det_boi.png) -->
-
-<!-- [![here comes det boi](img/det_boi.png)](content/about.md) -->
-
-<!-- ![external img](https://raw.githubusercontent.com/3zuli/mprojbot/b812f7e31bb7c099ba0bedb2b416fd8bb5911eaf/doc/mprojbotPID.JPG) -->
-
-<!-- <img src="https://raw.githubusercontent.com/3zuli/mprojbot/b812f7e31bb7c099ba0bedb2b416fd8bb5911eaf/doc/mprojbotPID.JPG" width=50%> -->
-<!-- <img src="" width="50%"> -->
-
 My name is Adam Trizuljak. Aside from my regular SW engineering work, I like to work on various hobby projects involving Arduino, ESP8266 & ESP32, STM32, electronics design, 3D printing and more. 
 <!-- I have built several mobile robots, WiFi-connected sensors,  -->
 
-This page is a quick showcase of some of my past projects. Where possible, I'll provide links to public Git repos or other means of documentation. Let's go!
+This page is a quick showcase of some of my past projects. Where possible, I'll provide links to public Git repos or other means of documentation. Some of my other projects (and many random videos) can be seen on my [Youtube channel](https://www.youtube.com/user/3zuli/videos). Also check out my 3D designs on [Thingiverse](https://www.thingiverse.com/3zuli/designs). Let's go!
 
 # ESP8266 & ESP32
 
@@ -31,7 +18,7 @@ This is a box with an MH-Z19B CO2 concentration sensor and ZH03B air particulate
 
 <img src="img/co2_sensor.jpg">
 
-<img src="img/co2_screen.jpg" width="50%">
+<img src="img/co2_screen.jpg">
 
 
 ## Neopixel glasses
@@ -96,7 +83,7 @@ I designed a pre-amplifier board for an HB-100 doppler radar module and made a s
 ## Arduino luxmeter
 2016-17
 
-I made a luxmeter using an BH1750 light level sensor and an Arduino Pro Mini. The original prototype was built on a prototype board, later I designed a proper PCB in KiCad as a project for our university PCB design class.
+I made a luxmeter using an BH1750 light level sensor and an Arduino Pro Mini. The original version was built on a prototype board, later I designed a proper PCB in KiCad as a project for our university PCB design class.
 
 [GitHub repository](https://github.com/3zuli/luxmeter)
 
@@ -109,12 +96,44 @@ Custom designed PCB:
 ![Luxmeter](img/luxmeter.jpg)
 
 
-<!-- # Robotics -->
-<!-- ADIS driver -->
+# Robotics
 
-<!-- mprojbot -->
+## Swarm of Crazyflie 2.0 quadcopters
+2016, Bachelor thesis, Internship at DLR Robotics and Mechatronics Center, Germany.
+
+I created the basic infrastructure for control of a swarm of miniature semi-autonomous Crazyflie 2.0 quadcopters and for obtaining measurements from on-board sensors. A PD position controller and a new quaternion-based PD attitude controller were implemented in firmware. In addition, I implemented a set of programs for communicating with the quadcopters and for sending simple trajectories. The poses of all drones are measured with a Vicon motion tracking system. The quadcopters only receive their current position and a desired position setpoint. The quadcopters have the ability to detect collisions and landings and are capable of flight in turbulent airflow.
+
+[![Swarm of Crazyflie 2.0 quadcopters](http://img.youtube.com/vi/LXng1v8lwbk/0.jpg)](https://www.youtube.com/watch?v=LXng1v8lwbk)
+
+
+## ADIS16488 IMU driver for Teensy 3.6
+2017
+
+Our university mobile robotics team was working on a four-wheeled robot, for which we wanted to integrate the highly precise (and very expensive) Analog Devices ADIS16488 9-axis IMU. I forked an existing [driver for ADIS16448](https://github.com/juchong/ADIS16448-Arduino-Teensy) and modified it for the ADIS16488. The code runs on a Teensy 3.6 board, which reads raw data from the IMU and streams it to the host PC. Other members of the team designed a PCB for the IMU and the Teensy and implemented a ROS node that received data from the Teensy.
+
+[GitHub repository](https://github.com/3zuli/ADIS16488_regtest)
+
+![ADIS debugging](img/adis_surgery.jpg)
+
+
+## PID motor control for differential drive robot
+2018
+
+This was a team project aimed at creating a line follower robot for the [Istrobot](http://www.robotika.sk/contest/) competition. My role was to develop the firmware for the STM32 processor, which performs low-level PID speed control of the drive motors.
+- STM32F411, firmware developed with STM32 Cube IDE
+- Two DC geared motors with hall effect encoders, ultrasonic sensor, front bumper switch
+- Raspberry Pi uses camera to find the line and sends motion commands to the STM
+- STM reads encoders with timers in encoder mode, performs a PID control loop for each motor, sends odometry and sensor states to RPi
+
+[GitHub repository](https://github.com/3zuli/mprojbot)
+
+[Project report](https://github.com/3zuli/mprojbot/blob/master/doc/MPROJ_robot_dokumentacia.pdf) (pdf, Slovak only)
+
+![Differential drive robot](img/mprojbot.jpg)
+
 
 <!-- stm linefollower -->
+<!-- The actual line following worked pretty well, but the robot wasn't successful during the competition... -->
 
 <!-- # Research -->
 <!-- circular avoidance -->
