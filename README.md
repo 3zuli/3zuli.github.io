@@ -2,7 +2,7 @@
 
 My name is Adam Trizuljak. Aside from my regular SW engineering work, I like to work on various hobby projects involving Arduino, ESP8266 & ESP32, STM32, electronics design, robotics, 3D printing and more. 
 
-This page is a quick showcase of some of my past projects in different categories. Where possible, I'll provide links to public Git repos or other means of documentation.
+This page is a quick showcase of some of my past projects in different categories, including both hobby projects and course work / research. Where possible, I'll provide links to public Git repos or other means of documentation.
 
 ## [ESP8266, ESP32 and IoT projects](iot.md)
 

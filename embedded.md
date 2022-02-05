@@ -1,4 +1,4 @@
-# [Arduino & Electronics
+# Arduino & Electronics
 
 ## HB-100 doppler module
 2016
@@ -24,3 +24,5 @@ I made a luxmeter using an BH1750 light level sensor and an Arduino Pro Mini. Th
 Custom designed PCB:
 
 ![Luxmeter](img/luxmeter.jpg)
+
+[Back](https://3zuli.github.io/)
