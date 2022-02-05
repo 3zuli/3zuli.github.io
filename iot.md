@@ -15,7 +15,7 @@ Sunglasses with an 18 by 7 matrix of WS2812-2020 addressable LEDs.
 
 I want to keep adding more features once events and festivals are allowed again, including a web control interface, the possibility to control the LEDs over DMX/ArtNet, and of course more LED effects and animations. I also plan to publish the code and design files on GitHub.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/gHiiCOIrOpQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="auto" src="https://www.youtube.com/embed/gHiiCOIrOpQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 First test showing the LED PCB in detail
 
