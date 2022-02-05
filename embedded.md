@@ -7,7 +7,7 @@ I designed a pre-amplifier board for an HB-100 doppler radar module and made a s
 
 [GitHub repository](https://github.com/3zuli/HB100_test)
 
-[![HB100 Doppler Radar Module Test](http://img.youtube.com/vi/ZSwi-uWl2hs/0.jpg)](https://www.youtube.com/watch?v=ZSwi-uWl2hs)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZSwi-uWl2hs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ## Arduino luxmeter
@@ -19,7 +19,7 @@ I made a luxmeter using an BH1750 light level sensor and an Arduino Pro Mini. Th
 
 [DIY guide on Instructables](https://www.instructables.com/Mini-Arduino-Lux-Meter/)
 
-[![Mini Arduino Lux Meter](https://content.instructables.com/ORIG/FFX/IA2J/IN3EHHKH/FFXIA2JIN3EHHKH.jpg?auto=webp&frame=1&fit=bounds&md=352d8cb78b7d0e236b770c9357947430)](https://www.youtube.com/watch?v=VyMFBjsZPPs)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VyMFBjsZPPs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Custom designed PCB:
 

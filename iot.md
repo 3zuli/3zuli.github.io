@@ -15,13 +15,11 @@ Sunglasses with an 18 by 7 matrix of WS2812-2020 addressable LEDs.
 
 I want to keep adding more features once events and festivals are allowed again, including a web control interface, the possibility to control the LEDs over DMX/ArtNet, and of course more LED effects and animations. I also plan to publish the code and design files on GitHub.
 
-[![Glasses 04](http://img.youtube.com/vi/gHiiCOIrOpQ/0.jpg)](https://www.youtube.com/watch?v=gHiiCOIrOpQ)
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gHiiCOIrOpQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 First test showing the LED PCB in detail
 
-[![Glasses 02](http://img.youtube.com/vi/k-fCb0Cq5mE/0.jpg)](https://www.youtube.com/watch?v=k-fCb0Cq5mE)
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=k-fCb0Cq5mE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ## IoT CO2 and air quality sensor
@@ -61,6 +59,6 @@ This is an old project. An ESP8266 periodically checks if it's connected to the 
 
 [DIY guide on Instructables](https://www.instructables.com/ESP8266-Internet-Alarm/)
 
-[![ESP8266 Internet Alarm v.2](http://img.youtube.com/vi/JE0zQ7cr_xE/0.jpg)](https://www.youtube.com/watch?v=JE0zQ7cr_xE)
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=JE0zQ7cr_xE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 [Back](https://3zuli.github.io/)
