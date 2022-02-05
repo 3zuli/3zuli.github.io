@@ -17,6 +17,8 @@ I want to keep adding more features once events and festivals are allowed again,
 
 [![Glasses 04](http://img.youtube.com/vi/gHiiCOIrOpQ/0.jpg)](https://www.youtube.com/watch?v=gHiiCOIrOpQ)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gHiiCOIrOpQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 First test showing the LED PCB in detail
 
 [![Glasses 02](http://img.youtube.com/vi/k-fCb0Cq5mE/0.jpg)](https://www.youtube.com/watch?v=k-fCb0Cq5mE)
