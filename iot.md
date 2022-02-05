@@ -1,18 +1,5 @@
 # ESP8266, ESP32 and IoT projects
 
-## IoT CO2 and air quality sensor
-2019 - present
-
-This is a box with an MH-Z19B CO2 concentration sensor and ZH03B air particulate sensor. I use it to measure indoor air quality.
-- Powered by ESP8266 D1 Mini board, programmed in Arduino IDE
-- OLED screen shows current sensor readings
-- Data streamed to ThingSpeak REST API over WiFi
-- Hosts local web server with real-time sensor readings (websockets) and plots from ThingSpeak
-
-<img src="img/co2_sensor.jpg">
-
-<img src="img/co2_screen.jpg">
-
 
 ## Neopixel glasses
 2019 - present
@@ -33,6 +20,20 @@ I want to keep adding more features once events and festivals are allowed again,
 First test showing the LED PCB in detail
 
 [![Glasses 02](http://img.youtube.com/vi/k-fCb0Cq5mE/0.jpg)](https://www.youtube.com/watch?v=k-fCb0Cq5mE)
+
+
+## IoT CO2 and air quality sensor
+2019 - present
+
+This is a box with an MH-Z19B CO2 concentration sensor and ZH03B air particulate sensor. I use it to measure indoor air quality.
+- Powered by ESP8266 D1 Mini board, programmed in Arduino IDE
+- OLED screen shows current sensor readings
+- Data streamed to ThingSpeak REST API over WiFi
+- Hosts local web server with real-time sensor readings (websockets) and plots from ThingSpeak
+
+<img src="img/co2_sensor.jpg">
+
+<img src="img/co2_screen.jpg">
 
 
 ## IoT Pool temperature sensor
