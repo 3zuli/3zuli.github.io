@@ -1,3 +1,5 @@
+[Back](https://3zuli.github.io/)
+
 # ESP8266, ESP32 and IoT projects
 
 
@@ -20,6 +22,22 @@ I want to keep adding more features once events and festivals are allowed again,
 First test showing the LED PCB in detail
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/k-fCb0Cq5mE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+## IoT water tank level sensor
+2022 - present
+
+A device which measures the water level in a rain water tank and sends the measured values to a ThingSpeak dashboard.
+- Powered by ESP32
+- Uses a generic TL-136 sensor that measures water level based on hydrostatic pressure
+- Wakes up every 5 minutes and sends data to ThingSpeak over MQTT. The sensor and its cicuitry are powered down between measurements to conserve power
+- Data streamed to ThingSpeak REST API over WiFi
+- Powered by a small solar panel that charges an 18650 battery
+
+
+<img src="img/water_level_device.jpg">
+
+<img width="400" src="img/water_level_dashboard.jpg">
 
 
 ## IoT CO2 and air quality sensor
